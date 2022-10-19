@@ -19,7 +19,7 @@ int main()
     printf("\n\n Enter the message: ");
     fgets(message, len + 1, stdin);  // read string
     fgets(message, len + 1, stdin);
-    message[strlen(message)] = '\0';   
+    //message[strlen(message)] = '\0';   
     printf("\n The message: ");
     puts(message);    // display string
 
@@ -50,5 +50,5 @@ int main()
             }
         }
     }
-    printf("\n\nThe Cypher code is: %s", message);
+    printf("\n\nThe Cypher code is: %s \n\n", message);
 }
