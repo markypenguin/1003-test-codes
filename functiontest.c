@@ -6,7 +6,7 @@ int main()
 {
     int x, funcx;
     printf(" Random number input: ");
-    scanf("%d", &x);
+    scanf(" %d", &x);
     printf("\n Value of x = %d", x);
     funcx = func(x);
     printf("\n funcx = %d", funcx);
