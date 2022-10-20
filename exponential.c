@@ -8,11 +8,12 @@ int main()
 
     printf("Input value of x: ");
     scanf("%lf", &x);
-    absx = x<0? -x:x;
+    absx = x < 0 ? -x : x;
 
     do
     {
         term *= (absx / n);
+        printf("\n abs x = %le", absx);
         sum += term;
         printf("\n term = %le    sum = %le     n term is %d", term, sum, n);
         n += 1;
